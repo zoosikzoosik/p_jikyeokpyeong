@@ -1,0 +1,41 @@
+{
+  "slug": "exam-study-app",
+  "status": "reviewed",
+  "feature": "직무역량평가 학습 앱",
+  "branch": "feature/exam-study-app",
+  "worktree": "../p_직역평-feature-exam-study-app",
+  "specFile": ".ai-company/dev/exam-study-app/spec.md",
+  "testFiles": [
+    "tests/conftest.py",
+    "tests/integration/test_auth.py",
+    "tests/integration/test_quiz.py",
+    "tests/integration/test_user_progress.py",
+    "tests/integration/test_bookmarks.py",
+    "tests/integration/test_wrong_notes.py",
+    "tests/integration/test_progress_dashboard.py",
+    "tests/integration/test_pipeline.py"
+  ],
+  "changedFiles": [
+    "components/__init__.py",
+    "components/auth.py",
+    "components/question_card.py",
+    "components/progress.py",
+    "components/supabase_client.py",
+    "pipeline/__init__.py",
+    "pipeline/ocr_and_generate.py",
+    "pipeline/prompts.py",
+    "pytest.ini",
+    "requirements-test.txt",
+    "tests/conftest.py",
+    "tests/integration/test_auth.py",
+    "tests/integration/test_quiz.py",
+    "tests/integration/test_user_progress.py",
+    "tests/integration/test_bookmarks.py",
+    "tests/integration/test_wrong_notes.py",
+    "tests/integration/test_progress_dashboard.py",
+    "tests/integration/test_pipeline.py"
+  ],
+  "handoffNotes": {},
+  "startedAt": "2026-06-26T00:00:00Z",
+  "updatedAt": "2026-06-26T00:00:00Z"
+}
